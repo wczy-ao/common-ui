@@ -1,0 +1,34 @@
+{
+  "name": "common-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "build": "vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
+  },
+  "keywords": [
+    "common-ui"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@iconify-json/ic": "1.1.4",
+    "@types/node": "^24.2.0",
+    "@vitejs/plugin-vue": "3.0.3",
+    "@vitejs/plugin-vue-jsx": "2.0.0",
+    "@vue/test-utils": "2.0.2",
+    "happy-dom": "6.0.4",
+    "unocss": "0.45.6",
+    "vite": "3.0.7",
+    "vitepress": "0.22.4",
+    "vitepress-theme-demoblock": "1.4.2",
+    "vitest": "0.21.1"
+  },
+  "dependencies": {
+    "vue": "3.2.37"
+  }
+}
