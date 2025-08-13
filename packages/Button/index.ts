@@ -1,2 +1,3 @@
-import tsxButton from "./tsxButton";
-export default tsxButton
+import CmButton from './Button';
+export default CmButton;
+export { CmButton };

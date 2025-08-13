@@ -2,11 +2,11 @@ import { createApp } from "vue/dist/vue.esm-bundler";
 import commonUI from "./packages/index";
 createApp({
   template: `<div>
-    <tsxButton color="red">默认tsx</tsxButton>
-    <tsxButton color="green">默认tsx</tsxButton>
-    <tsxButton color="gray" round plain icon="check" ></tsxButton>
-    <tsxButton color="yellow" round plain icon="message" ></tsxButton>
-    <tsxButton color="red" round plain icon="delete" ></tsxButton>
+    <cm-button color="red">默认tsx</cm-button>
+    <cm-button color="green">默认tsx</cm-button>
+    <cm-button color="gray" round plain icon="check" ></cm-button>
+    <cm-button color="yellow" round plain icon="message" ></cm-button>
+    <cm-button color="red" round plain icon="delete" ></cm-button>
   </div>`,
 })
   .use(commonUI)

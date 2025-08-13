@@ -1,14 +1,14 @@
-import { App } from "vue";
-import tsxButton from "./Button/tsxButton";
+import { App } from 'vue';
+import CmButton from './Button/Button';
 
-const exportButton = [tsxButton];
+const exportButton = [CmButton];
 
-export { tsxButton };
+export { CmButton };
 
 export default {
-  install(app: App) {
-    exportButton.forEach(comp => {
-        app.component(comp.name, comp)
-    })
-  },
+  install(app: App): void {
+    exportButton.forEach((comp) => {
+      app.component(comp.name, comp);
+    });
+  }
 };
